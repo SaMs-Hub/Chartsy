@@ -1,0 +1,81 @@
+.dashboardContainer{
+    width: 90vw;
+    height: 100vh;
+    padding: 20px;
+
+}
+
+
+.coinContainer{
+    width: 90%;
+    height: 110%;
+    border-radius: 8px;
+    border: 2px solid grey;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.coinInfoContainer {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+
+.currencyHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.coinName{
+    text-decoration: underline;
+}
+
+
+
+
+
+.currencyName{
+    color: grey;
+    font-size: 10px;
+    margin-bottom: 8px;
+    display: inline-block;
+    position: relative;
+    bottom: 7px;
+  
+
+}
+
+p{
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.currencyProfit{
+    color: green;
+    font-size: 10px;
+}
+
+.modeSelector{
+    display: flex;
+}
+
+.selectedDay{
+    background-color: #5f55f0;
+    color: white;
+    width: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.day{
+    color: black;
+    cursor: pointer;
+}
