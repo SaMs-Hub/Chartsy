@@ -18,7 +18,7 @@ const useDashboard = () => {
 
 
         } catch (err) {
-            window.alert("API limit reached, pls try again after some time")
+            window.alert("API limit reached, please try again after some time")
             setLoadingData(false);
         }
     }

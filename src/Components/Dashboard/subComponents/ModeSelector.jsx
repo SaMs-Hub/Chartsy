@@ -2,9 +2,7 @@ import styles from "../styles.module.css";
 import useDashboard from "../../../hooks/useDashboard";
 import { chartModes } from "../utils";
 
-const ModeSelector = () => {
-  const { currentMode, handleCurrentMode } = useDashboard();
-
+const ModeSelector = ({ currentMode, setCurrentMode }) => {
   return (
     <div>
       <div className={styles.modeSelector}>
@@ -13,13 +11,13 @@ const ModeSelector = () => {
           return (
             <p
               onClick={() => {
-                handleCurrentMode(item);
+                setCurrentMode(item);
               }}
               key={item}
               style={
                 isCurrentMode
                   ? {
-                      color: "#5f5110",
+                      color: "#e02820",
                       fontWeight: 800,
                       cursor: "pointer",
                     }
